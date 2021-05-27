@@ -7,10 +7,6 @@ namespace ConsoleApp
 {
     public class Program
     {
-        public static void Main(string[] args)
-        {
-        }
-
         #region AllowNull
 
         private static void AllowNullExample()
@@ -125,6 +121,17 @@ namespace ConsoleApp
         {
             if (someObject is null)
                 throw new ArgumentNullException(nameof(someObject), "Cannot set to null");
+        }
+
+        #endregion
+
+        #region NotNullWhen
+
+        public static void NotNullWhenExample()
+        {
+            string? someString = null;
+            // if (!string.IsNullOrEmpty(someString))
+            Console.WriteLine(someString.Length);
         }
 
         #endregion
