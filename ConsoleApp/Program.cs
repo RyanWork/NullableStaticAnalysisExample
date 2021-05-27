@@ -128,21 +128,6 @@ namespace ConsoleApp
         }
 
         #endregion
-        
-        #region DoesNotReturn
-
-        private static void FailFast()
-        {
-            throw new InvalidOperationException();
-        }
-
-        private static void Testing()
-        {
-            FailFast();
-            Console.WriteLine("Hello World!");
-        }
-        
-        #endregion
 
         #region MemberNotNull
         
