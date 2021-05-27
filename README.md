@@ -1,0 +1,2 @@
+# NullableStaticAnalysisExample
+Examples that demonstrate the use of Nullable Static Analysis as described in [# Reserved attributes contribute to the compiler's null state static analysis](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/attributes/nullable-analysis).
